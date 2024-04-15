@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext" /* 컴파일된 JS의 버전을 지정 */,
+    "module": "ESNext" /* 컴파일된 JS 모듈시스템 지정 */,
+    "outDir": "dist" /* 컴파일된 JS 파일 저장소 지정 */,
+    "strict": false /* type검사를 얼마나 엄격히할지 지정 */,
+    "moduleDetection": "force",
+    // "skipLibCheck": true
+    "types": []
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src/*.ts"] /* src경로내 모든 파일을 컴파일 */,
+  "exclude": ["node_modules"]
+}
